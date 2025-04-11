@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'josefin-sans': ['"Josefin Sans"', 'sans-serif'],
+        'Krona+One': 'Krona+One'
       },
       fontWeight: {
         // Add specific font weights if needed

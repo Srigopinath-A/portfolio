@@ -9,7 +9,7 @@ export default function Header(){
         <nav className=" hidden md:block  "> 
         <ul className=" justify-center flex text-white font-josefin-sans font-medium">
             <li><a href="#">Home</a></li>
-            <li><a herf="#">About</a></li>
+            <li><a herf="#">Skills</a></li>
             <li><a herf="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -23,7 +23,7 @@ export default function Header(){
        { toggleMenu && ( <div className="mobile-nav">
         <ul className=" flex flex-col text-black font-josefin-sans font-medium  p-4 space-y-4 ">
             <li><a href="#" onClick={ () => toggleMenu(false)}>Home</a></li>
-            <li><a herf="#" onClick={ () => toggleMenu(false)}>About</a></li>
+            <li><a herf="#" onClick={ () => toggleMenu(false)}>Skills</a></li>
             <li><a herf="#" onClick={ () => toggleMenu(false)}>Projects</a></li>
             <li><a href="#" onClick={ () => toggleMenu(false)}>Contact</a></li>
         </ul>
