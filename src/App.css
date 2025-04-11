@@ -26,3 +26,7 @@ header ul li{
 .skill-bg{
   @apply bg-black w-full h-full;
 }
+
+.project-bg{
+  @apply bg-black w-full h-full;
+}
