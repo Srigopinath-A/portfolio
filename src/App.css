@@ -30,3 +30,7 @@ header ul li{
 .project-bg{
   @apply bg-black w-full h-full;
 }
+
+html {
+  scroll-behavior: smooth;
+}

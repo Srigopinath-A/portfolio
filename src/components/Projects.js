@@ -33,8 +33,8 @@ export default function Projects() {
   ];
 
   return (
-    <section className="project-bg pb-5">
-      <div className="pt-10 text-white font-Krona+One text-center font-medium text-2xl pb-5">
+    <section className="project-bg pb-5" id="projects">
+      <div className="text-3xl md:text-4xl font-medium text-center text-white mb-8">
         <h1>Projects</h1>
       </div>
       <div className="mt-6 px-8 sm:px-60 lg:px-20">
