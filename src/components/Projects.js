@@ -4,7 +4,7 @@ export default function Projects() {
       name: "AWX Automation",
       description:
         "Spring Application Integrated with the AWX Tower to automate patch updates and system-level updates, saving the info in MongoDB.",
-      repoLink: "https://github.com/Srigopinath-A/AWX-Automation.git",
+      repoLink: "https://github.com/Srigopinath-A/Awx-Auto-File.git",
     },
     {
       name: "Ecommerce Webapp",
