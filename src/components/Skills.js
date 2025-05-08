@@ -32,7 +32,6 @@ export default function Skills() {
         { name: 'Azure', badge: 'https://img.shields.io/badge/-Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white' },
         { name: 'VS Code', badge: 'https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC' },
         { name: 'AWX', badge: 'https://img.shields.io/badge/-AWX-EE0000?style=flat-square&logo=ansible&logoColor=white' },
-        // New Skills Added
         { name: 'JUnit', badge: 'https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit&logoColor=white' },
         { name: 'Docker', badge: 'https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white' },
         { name: 'Docker Compose', badge: 'https://img.shields.io/badge/-Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white' },
