@@ -32,6 +32,11 @@ export default function Skills() {
         { name: 'Azure', badge: 'https://img.shields.io/badge/-Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white' },
         { name: 'VS Code', badge: 'https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC' },
         { name: 'AWX', badge: 'https://img.shields.io/badge/-AWX-EE0000?style=flat-square&logo=ansible&logoColor=white' },
+        // New Skills Added
+        { name: 'JUnit', badge: 'https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit&logoColor=white' },
+        { name: 'Docker', badge: 'https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white' },
+        { name: 'Docker Compose', badge: 'https://img.shields.io/badge/-Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white' },
+        { name: 'GitHub Actions', badge: 'https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white' },
       ],
     },
   ];
@@ -46,7 +51,7 @@ export default function Skills() {
         <div className="space-y-12">
           {SKILLS.map((skillCategory, index) => (
             <div key={index} className="space-y-6">
-              <h3 className="text-xl md:text-2xl  text-center text-white uppercase tracking-wider">
+              <h3 className="text-xl md:text-2xl text-center text-white uppercase tracking-wider">
                 {skillCategory.category}
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
