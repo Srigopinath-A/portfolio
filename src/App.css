@@ -1,9 +1,12 @@
+/* CORRECT: Import the font CSS file directly at the top */
+@import url('https://api.fontshare.com/v2/css?f[]=phonk@400,500,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* The rest of your CSS remains the same */
 header ul li{
-
   @apply px-5; 
 }
 
