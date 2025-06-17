@@ -1,6 +1,5 @@
 import React from 'react';
 
-// The BriefcaseIcon remains the same, a nice, clean SVG.
 const BriefcaseIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
