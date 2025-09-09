@@ -29,6 +29,7 @@ export default function Projects() {
     }
   ];
 
+  
   return (
     // THE CHANGE IS HERE: The `font-sans` class now applies "Phonk Sans" to this entire section.
     <section id="projects" className="bg-neutral-950 text-white py-16 md:py-24 font-sans">
