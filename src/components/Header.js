@@ -1,11 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import { Bars4Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
-// The three navigation links you need
+// ✅ Added Work Experience & Achievements
 const navLinks = [
   { href: '#Content', label: 'Home' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
+  { href: '#experience', label: 'Work Experience' }, // NEW
+  { href: '#achievements', label: 'Achievements' }, // NEW
 ];
 
 export default function Header() {
@@ -38,11 +40,7 @@ export default function Header() {
   }, []);
 
   return (
-    // STYLE CHANGE: Changed bg-gray-800 to bg-transparent.
-    // To get the dark background from your image, you could use `bg-black`
-    // or a custom color like `bg-[#2f3441]`
     <header className="fixed top-0 right-0 p-4 z-50">
-
       {/* Mobile Menu Button - always visible on the top right */}
       <button
         id="menu-button"
@@ -59,10 +57,7 @@ export default function Header() {
         )}
       </button>
 
-      {/* 
-        Mobile Navigation Menu (the part that slides in)
-        This is hidden by default and appears when isMenuOpen is true.
-      */}
+      {/* Mobile Navigation Menu */}
       <div
         id="mobile-menu"
         ref={menuRef}

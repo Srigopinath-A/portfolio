@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Experience from './components/experience';
+import Achievements from './components/Achivements';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Content/>
       <Experience/>
+      <Achievements/>
       <Skills/>
       <Projects/>
       <Footer/>

@@ -38,7 +38,7 @@ export default function Experience() {
 
   return (
     // Set the section background and default font
-    <section id="experience" className="bg-neutral-950 text-white py-16 md:py-24 ">
+    <section id="experience" className="bg-black text-white py-16 md:py-24 ">
       <div className="container mx-auto px-4">
         {/* Main heading uses the elegant 'Playfair Display' font. The redundant font-sans is ok, but removed for clarity. */}
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-16 font-display tracking-tight font-sans">
